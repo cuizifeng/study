@@ -1,0 +1,8 @@
+{
+  "locale.auto": "系統",
+  "locale.en": "英語",
+  "locale.zh-hans": "簡體中文",
+  "locale.zh-hant": "繁體中文",
+  "locale.ja": "日語",
+  "index.demo": "uni-app 國際化演示"
+}

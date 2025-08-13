@@ -1,0 +1,52 @@
+
+$colors: (
+   // 灰色系
+   'grey-1':#858597,
+   'grey-2':#1F1F39,
+   'grey-3':#333333,
+   'grey-4':#ACACAC,
+   'grey-5':#464A4D,
+   'grey-6':#eeeeee,
+  // 红色系
+  'red-1':#EA4545,
+  // 黄色系
+  // 蓝色系
+  'blue-1':#3D5CFF,
+  'blue-2':#7287ff,
+  // 绿色系
+  'green-1':#24DB5A,
+  // 紫色系
+  
+  // 橘黄色
+  
+  'white':#ffffff,
+  'black':#000000
+  
+);
+
+@each $color-name, $color-value in $colors {
+  .bg-#{$color-name} {
+    background-color: $color-value;
+  }
+  
+  .text-#{$color-name} {
+    color: $color-value;
+  }
+  
+  .border-#{$color-name} {
+    border:2rpx solid $color-value;
+  }
+}
+
+.bg-red-gradient{
+	background: linear-gradient( 92deg, #D8000F 0%, rgba(255,48,48,0.5) 100%);
+}
+
+.btn-blue{
+	background:linear-gradient(to right,#406eff, #629eff);
+}
+
+
+.btn-red{
+	background:linear-gradient(to right,#fa3b24, #fa6523);
+}

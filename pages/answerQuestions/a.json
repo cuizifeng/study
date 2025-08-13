@@ -1,0 +1,204 @@
+{
+  "msg": "success",
+  "code": 200,
+  "data": {
+    "list": [
+      {
+        "id": 59,
+        "classification_id": 2,
+        "category_id": 7,
+        "topic": "下列关于RADIUS协议的说法中，错误的是( )。 ",
+        "type": "single",
+        "image": null,
+        "analysis": "  题目解析：本题考查对RADIUS协议的理解。RADIUS是一种客户端\/服务器协议，用于远程身份验证、授权和帐户信息管理。它运行在应用层，使用UDP协议。RADIUS的审计独立于身份验证和授权服务，但是审计服务使用的是与身份验证和授权服务相同的UDP端口。因此，选项A、B、C都是正确的。而RADIUS协议并没有提供完备的丢包处理及数据重传机制，因此选项D是错误的。因此，本题的正确答案是D。",
+        "option": [
+          {
+            "label": "RADIUS 是一个客户端\/服务器协议，它运行在应用层，使用UDP协议",
+            "value": "A"
+          },
+          {
+            "label": "   RADIUS的审计独立于身份验证和授权服务",
+            "value": "B"
+          },
+          {
+            "label": "   RADIUS的审计服务使用一个独立的UDP端口进行通讯",
+            "value": "C"
+          },
+          {
+            "label": "  RADIUS协议提供了完备的丢包处理及数据重传机制",
+            "value": "D"
+          }
+        ],
+        "difficulty": 3,
+        "is_selected": "2",
+        "answer": "D",
+        "keyword": null,
+        "saas_appid": 3,
+        "create_at": "2024-08-14 18:23:04",
+        "update_at": "2024-08-14 18:23:04",
+        "collect_id": null
+      },
+      {
+        "id": 333,
+        "classification_id": 2,
+        "category_id": 7,
+        "topic": "Linux进程间通信时使用的特殊文件是 ",
+        "type": "single",
+        "image": null,
+        "analysis": "  题目解析：本题考查Linux进程间通信的方式。Linux进程间通信有多种方式，包括管道、消息队列、共享内存、信号量、套接字等。其中，套接字是一种特殊的文件，用于实现不同主机或同一主机上不同进程之间的通信。因此，本题的答案是A，即套接字。其他选项正规文件、链接、目录都不是Linux进程间通信时使用的特殊文件。",
+        "option": [
+          {
+            "label": "Sockets",
+            "value": "A"
+          },
+          {
+            "label": "   正规文件",
+            "value": "B"
+          },
+          {
+            "label": "   链接",
+            "value": "C"
+          },
+          {
+            "label": "  目录",
+            "value": "D"
+          }
+        ],
+        "difficulty": 3,
+        "is_selected": "2",
+        "answer": "A",
+        "keyword": null,
+        "saas_appid": 3,
+        "create_at": "2024-08-14 18:31:38",
+        "update_at": "2024-08-14 18:31:38",
+        "collect_id": null
+      },
+      {
+        "id": 581,
+        "classification_id": 2,
+        "category_id": 7,
+        "topic": "信息安全等级保护的基本管理要求从安全管理制度、安全管理机构、(  ?)管理、系统建设管理和系统运维管理几个方面提出 ",
+        "type": "single",
+        "image": null,
+        "analysis": "  题目解析：本题考查信息安全等级保护的基本管理要求。根据题干中提到的“安全管理制度、安全管理机构、(  ?)管理、系统建设管理和系统运维管理几个方面提出”，可以知道这是在讲述信息安全等级保护的基本管理要求的几个方面。而根据选项，只有A选项“人员安全”与这些方面相关，因此答案为A。",
+        "option": [
+          {
+            "label": "人员安全",
+            "value": "A"
+          },
+          {
+            "label": "   设备安全",
+            "value": "B"
+          },
+          {
+            "label": "   数据安全",
+            "value": "C"
+          },
+          {
+            "label": "  网络安全",
+            "value": "D"
+          }
+        ],
+        "difficulty": 3,
+        "is_selected": "2",
+        "answer": "A",
+        "keyword": null,
+        "saas_appid": 3,
+        "create_at": "2024-08-14 18:31:39",
+        "update_at": "2024-08-14 18:31:39",
+        "collect_id": null
+      },
+      {
+        "id": 3880,
+        "classification_id": 2,
+        "category_id": 15,
+        "topic": "以下关于文件压缩的描述中，错误的是(    )。",
+        "type": "single",
+        "image": null,
+        "analysis": "暂无解析",
+        "option": [
+          {
+            "label": "文件压缩后文件尺寸一般会变小",
+            "value": "A"
+          },
+          {
+            "label": "不同类型的文件的压缩比率是不同的",
+            "value": "B"
+          },
+          {
+            "label": "文件压缩的逆过程称为解压缩",
+            "value": "C"
+          },
+          {
+            "label": "使用文件压缩工具可以将JPG图像文件压缩70％左右",
+            "value": "D"
+          }
+        ],
+        "difficulty": 3,
+        "is_selected": "2",
+        "answer": "D",
+        "keyword": null,
+        "saas_appid": 3,
+        "create_at": "2024-08-15 11:25:12",
+        "update_at": "2024-08-15 11:25:12",
+        "collect_id": null
+      },
+      {
+        "id": 3970,
+        "classification_id": 2,
+        "category_id": 15,
+        "topic": "云计算支持用户在任意位置、使用各种终端获取应用服务。所请求的资源来自“云”，而不是固定的有形的实体。应用在“云”中某处运行，但实际上用户无需了解、也不用担心应用运行的具体位置。怕说明云计算具有(    )特点。",
+        "type": "single",
+        "image": null,
+        "analysis": "暂无解析",
+        "option": [
+          {
+            "label": "通用性",
+            "value": "A"
+          },
+          {
+            "label": "高可扩展性",
+            "value": "B"
+          },
+          {
+            "label": "高可靠性",
+            "value": "C"
+          },
+          {
+            "label": "虚拟化",
+            "value": "D"
+          }
+        ],
+        "difficulty": 3,
+        "is_selected": "2",
+        "answer": "D",
+        "keyword": null,
+        "saas_appid": 3,
+        "create_at": "2024-08-15 11:25:12",
+        "update_at": "2024-08-15 11:25:12",
+        "collect_id": null
+      }
+    ],
+    "info": {
+      "id": 22,
+      "classification_id": 0,
+      "name": "多次考试测试",
+      "topic_ids": "59,333,581,3880,3970",
+      "number": 5,
+      "difficulty": 0,
+      "category_ids": "15,23,7,6",
+      "time": 30,
+      "start_time": 0,
+      "end_time": 0,
+      "content": "{\"single_scores\":2,\"single_number\":20,\"single_ids\":\"5042,5652,3880,5197,3970,6149,6255,59,6098,5627,5889,333,5725,4603,5515,4472,581,4737,6068,4439\",\"single_difficulty\":3,\"multiple_scores\":1,\"multiple_number\":0,\"multiple_ids\":\"\",\"multiple_difficulty\":1,\"blank_scores\":1,\"blank_number\":0,\"blank_ids\":\"\",\"blank_difficulty\":1,\"tof_scores\":1,\"tof_number\":0,\"tof_ids\":\"\",\"tof_difficulty\":1,\"short_scores\":1,\"short_number\":0,\"short_ids\":\"\",\"short_difficulty\":1}",
+      "scores": 40,
+      "is_vip": "1",
+      "saas_appid": 3,
+      "pass_line": 30,
+      "test_paper_number": 10,
+      "manual": "2",
+      "create_at": "2025-06-27 15:31:15",
+      "update_at": "2025-06-27 15:31:15"
+    }
+  }
+}
