@@ -10,14 +10,14 @@
     <view
       class="wx-head-mod"
       :style="{
-        height: navHeight + 'rpx',
+        height: navHeight + lintHeight + 'rpx',
         backgroundColor: navBackgroundColor,
       }"
     >
       <view
         class="wx-head-mod-nav"
         :style="{
-          height: navigationBarHeight + 'rpx',
+          height: navigationBarHeight + lintHeight + 'rpx',
           top: statusBarHeight + 'rpx',
         }"
       >
@@ -31,14 +31,15 @@
     <view
       class="other-head-mod"
       :style="{
-        height: navHeightValue * scaleFactor + statusBarHeight + 'rpx',
+        height:
+          navHeightValue * scaleFactor + statusBarHeight + lintHeight + 'rpx',
         backgroundColor: navBackgroundColor,
       }"
     >
       <view
         class="other-head-mod-mian"
         :style="{
-          height: navHeightValue * scaleFactor + 'rpx',
+          height: navHeightValue * scaleFactor + lintHeight + 'rpx',
         }"
       >
         <slot></slot>
@@ -47,7 +48,8 @@
     <!-- #endif -->
     <view
       :style="{
-        marginTop: navHeightValue * scaleFactor + statusBarHeight + 'rpx',
+        marginTop:
+          navHeightValue * scaleFactor + statusBarHeight + lintHeight + 'rpx',
       }"
     ></view>
   </view>
@@ -115,6 +117,11 @@ const props = defineProps({
   navHeightValue: {
     type: Number,
     default: 44, //px
+  },
+
+  lintHeight: {
+    type: Number,
+    default: 0, //rpx
   },
 });
 

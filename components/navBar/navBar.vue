@@ -152,7 +152,7 @@ const props = defineProps({
   },
   // 文本区字体大小
   fontSize: {
-    type: Number,
+    type: [Number, String],
     default: 20, //px
   },
   // 文本区字体粗细
@@ -235,6 +235,7 @@ const backEvent = () => {
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 9;
 }
 
 .wx-head-mod-nav {
@@ -292,6 +293,7 @@ const backEvent = () => {
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 9;
 }
 
 .other-head-mod-mian {

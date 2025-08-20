@@ -9,6 +9,7 @@ vue3-uniapp-template 是基于 vue3 的 uniapp 快速开发模板，包含状态
 ### 项目启动
 
 ```bash
+https://github.com/cshaptx4869/vue3-uniapp-template.git
 # 切换目录
 cd vue3-uniapp-template
 

@@ -18,7 +18,10 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "crypto-js": "^4.2.0"
+    "crypto-js": "^4.2.0",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^3.0.1",
+    "swiper": "^11.2.10"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.1.0",

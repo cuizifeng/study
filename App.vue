@@ -85,7 +85,6 @@ provide("globalData", globalData);
 
 <style>
 page {
-  height: 100%;
   background: #fafafa;
   font-family: SimSun;
 }

@@ -7,6 +7,10 @@ $colors: (
    'grey-4':#ACACAC,
    'grey-5':#464A4D,
    'grey-6':#eeeeee,
+   'grey-7':#9CA3AF,
+   'grey-8':#6B7280,
+   'grey-9':#F4F4F4,
+   'grey-10':#F7F7F7,
   // 红色系
   'red-1':#EA4545,
   // 黄色系
@@ -15,13 +19,16 @@ $colors: (
   'blue-2':#7287ff,
   // 绿色系
   'green-1':#24DB5A,
+  'green-2':#1CD1DE,
+  'green-3':#D8F8FA,
+  'green-4':#D2F6F8,
   // 紫色系
   
   // 橘黄色
   
   'white':#ffffff,
-  'black':#000000
-  
+  'black':#000000,
+  '3D':#3D3D3D
 );
 
 @each $color-name, $color-value in $colors {

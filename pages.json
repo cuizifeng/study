@@ -15,6 +15,71 @@
   },
   "pages": [
     {
+      "path": "pages/motivationalAnimation/index",
+      "style": {
+        "navigationBarTitleText": "激励动画",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/checkUniversities/index",
+      "style": {
+        "navigationBarTitleText": "查院校",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/helpFeedback/index",
+      "style": {
+        "navigationBarTitleText": "帮助与反馈",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/personalLnformation/index",
+      "style": {
+        "navigationBarTitleText": "个人信息",
+        "navigationStyle": "custom"
+      }
+    },
+    /* #ifdef H5 */
+    {
+      "path": "pages/createPdf/index",
+      "style": {
+        "navigationBarTitleText": "pdf",
+        "navigationStyle": "custom"
+      }
+    },
+    /* #endif */
+    {
+      "path": "pages/iframePage/index",
+      "style": {
+        "navigationBarTitleText": "iframe",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/setUp/index",
+      "style": {
+        "navigationBarTitleText": "设置",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/my/index",
+      "style": {
+        "navigationBarTitleText": "我的",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/completeSelf/index",
+      "style": {
+        "navigationBarTitleText": "摸底自测",
+        "navigationStyle": "custom"
+      }
+    },
+    {
       "path": "pages/answerQuestions/index",
       "style": {
         "navigationBarTitleText": "开始答题",
@@ -64,12 +129,6 @@
     },
     {
       "path": "pages/classRoom/index",
-      "style": {
-        "navigationBarTitleText": "uni-app"
-      }
-    },
-    {
-      "path": "pages/my/index",
       "style": {
         "navigationBarTitleText": "uni-app"
       }
